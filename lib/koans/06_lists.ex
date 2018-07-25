@@ -4,7 +4,7 @@ defmodule Lists do
   @intro "Lists"
 
   koan "We can see what is ahead" do
-    assert List.first([1, 2, 3]) == ___
+    assert List.first([1, 2, 3]) == 1
   end
 
   koan "Checking what's trailing is also simple" do
